@@ -1,0 +1,109 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /
+textarea {overflow:auto;}
+
+/***** RESET *****/
+body{
+    background: url(images/bg.gif) repeat;
+}
+.hepsi{
+    width: 90%; height: auto;
+    margin: 1% auto;
+}
+.logo{
+    width: 229px; height: 94;
+    background-image: url(images/logo.gif);
+}
+.menu{
+    width: 90%; height: 5%;
+    background-image: url(images/menu_bg.gif);
+    position: relative;
+}
+.orta{
+    width: 90%; height: 85%;
+    background-color: #e9e5e2;
+}
+.alt{
+    width: 90%; height: 10%;
+}
+menu ul li{
+    float: left;
+}
+.menu ul a li{
+    display: block;
+    width: 12%; height: 3%;
+    color: #ffffff;
+    font: bold 12px tahoma;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding: 1%;
+}
+.menu ul a li #home{
+    display: block;
+    width: 12%; height: 3%;
+    color: #ffffff;
+    font: bold 12px tahoma;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    background-image: url(images/menu_bullet.gif);
+    background-repeat: no-repeat;
+    background-attachment: bottom;
+    background-position: center; 
+}
+
+.menu ul a:hover{
+    background-image: url(images/menu_bullet.gif) center bottom;
+}
+.orta1{
+    width: 50%; height: 10%;
+    background-image: url(images/checked.gif) no-repeat;
+    position: left;
+}
+.orta2{
+    width: 60%; height: 40%;
+}
+.orta3{
+    width: 30%; height: 50%;
+}
+.orta4{
+    width: 60%; height: 40%;
+    padding: 4% 0 0 0;
+}
+.orta5{
+    width: 40%; height: 30%;
+}
+.orta6{
+    width: 60%; height: 20%;
+}
+.orta7{
+    width: 60%; height: 20%;
+}
+.orta8{
+    width: 40%; height: 30%;
+}
+
+
+
+
+
+
+
+

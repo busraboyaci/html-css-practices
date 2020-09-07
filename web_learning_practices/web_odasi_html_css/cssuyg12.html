@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+            css konumlandırma(possition) kaydırma(float)
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+       <!--
+        <div style="width:300px; height:170; background-color: rebeccapurple ; border:5px solid darkgreen; color:
+        darkolivegreen; font: bold 14pt tahoma; text-align: center; padding:130px 0px 0px 0px ; position:fixed ;"> -->
+       4.kutu 
+        <!--fixed: sabitle demek kaydırma çubuğuyla inildiğinde sayffadan kaybolmaz-->
+
+
+   <div 
+   style="width: 960px ; height: 920px ;
+    margin: 0 auto"> 
+    <!--float kullanıldığında sınırlandırılmış divin içinde yeterli bşluk varsa kendini yukarı tabiliyor-->
+         <!--sayfaya bir kutu elemanı eklemek için kullanılır-->
+         <div style="width:300px; height:170; background-color: cadetblue ; border:5px solid darkgreen; color:
+         darkmagenta; font: bold 14pt tahoma; text-align: center; padding:130px 0px 0px 0px ; position: static; margin: 50px 0 0 30px;" >
+
+         <!--possition statik verilmiş bir div kenidni sol üst köşeye göre konumlandırır
+             padddingde yukarıdan veya alttan boşluk verdiysek verilen boşluk kadar kutu hightindan düşmem gerekiyor
+             marginde ilk hane yukarı aşağı ikincisi soldan ve sağdan boşluk anlamına gelir
+            dört haneli kullandığımızda 1. sayı üst, 2. sayı sağ, 3. alt taraftan boşluk, 4.sayı sol taraftan boşluk manasına gelir.
+            auto sayfafyı yatay yönde ortaladı
+            soldan ve sağdan auto değerleriyle kutu ortada hizalanmış olur.
+        -->
+        1.kutu
+         </div>
+         <div style="width:300px; height:170; background-color: rebeccapurple ; border:5px solid darkgreen; color:
+         darkmagenta; font: bold 14pt tahoma; text-align: center; padding:130px 0px 0px 0px ; position: relative; top: 50px; left: 40px;">
+         <!--relative kendisinden önce gelen elamanın konumuna göre konumlanır
+            dışarıyla olan boşluklarını top: bir önceki elemana göre boşluk ver
+            left ve margin le dışarıya boşluk verebiliyoruz.
+             
+            static sol üst köşeye göre konumlanır-->
+         2.kutu
+         </div>
+         <div style="width:300px; height:170; background-color: rebeccapurple ; border:5px solid darkgreen; color:
+         fuchsia; font: bold 14pt tahoma; 
+         text-align: center; padding:130px 0px 0px 0px ; 
+         position: absolute; left: 1500; top: 1270;
+         float: left;">
+          3.kutu
+         <!-- absold: sayfanın üstünü ve sayfanın solunu baz alır
+            her browser bu parametreyi farklı yotumluyacaktır.-->
+         </div>
+        <br><br><br>
+        <div>
+         <div
+         style="width:300px; height:170; 
+         background-color: chartreuse ;
+          border:5px solid darkgreen; color:
+        darkmagenta; font: bold 14pt tahoma; 
+        text-align: center; padding:130px 0px 0px 0px ;
+        float: left; " >
+        <!--float: kutuların yönlerini değiştirmek istediğimizde
+        hangi iki kutuyu yan yana getirmek istersek o ikisinde de float kullanmalıyız-->
+            1.kutu
+       </div>
+       <div
+         style="width:300px; height:170; 
+         background-color: black ;
+          border:5px solid darkgreen; color:
+        darkmagenta; font: bold 14pt tahoma; 
+        text-align: center; padding:130px 0px 0px 0px ;
+        float: left;
+        margin: 0 0 0 20px;" >
+        2.kutu
+       </div>
+       <div
+         style="width:300px; height:170; 
+         background-color: rgb(163, 52, 52) ;
+          border:5px solid darkgreen; color:
+        darkmagenta; font: bold 14pt tahoma; 
+        text-align: center; padding:130px 0px 0px 0px ;
+        clear: both;" >
+        3.kutu
+       </div>
+    </div>
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    </body>
+</html>

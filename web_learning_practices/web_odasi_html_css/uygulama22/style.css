@@ -1,0 +1,236 @@
+.menu1{
+    width: 130px; height: 160px;
+    margin: 10px 0 0 0;
+}
+.menu1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu1 ul li a{
+    display: block;
+    width: 125px; height: 24px;
+    background-color: coral;
+    color: rgb(104, 136, 196);
+    font: bold 12px tahoma;
+    text-decoration-line: none;
+    padding: 8px 0 0 5px; 
+}
+.menu1 ul li a:hover{
+    background-color: burlywood;
+    color: #000000;
+}
+.menu2{
+    width: 600px; height: 32px;
+    margin: 30px 0 0 0;
+}
+.menu2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu2 ul li{
+    float: left;
+}
+.menu2 ul li a{
+    display: block;
+    background-color: crimson;
+    width: 120px; height: 24px;
+    text-decoration: none;
+    padding: 8px 0 0 0;
+    text-align: center;
+    font: bold 12px tahoma;
+    color: rgb(128, 240, 156);
+}
+.menu2 ul li a:hover{
+    background-color: lightskyblue;
+    color: lightslategrey;
+}
+.menu3{
+    width: 510px; height: 32px;
+    margin: 30px 0 0 0;
+}
+.menu3 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu3 ul li{
+    float: left;
+}
+/*kutuya genişlik ve yükseklik vermiyoruz*/
+.menu3 ul li a{
+    display: block;
+    color: mediumorchid;
+    background-color: peru;
+    font: bold 12px tahoma;
+    padding: 8px 0 0 0;
+    text-decoration: none;
+    padding: 9px 25px;
+}
+.menu3 ul li a:hover{
+    background-color: plum;
+    color: royalblue;
+}
+.menu4{
+    width: 152px; height: 170px;
+    margin: 30px 0 0 0;
+}
+.menu4 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*menu 4ün içindeki ul içindeki li ler göreceli yani
+birbirini takip edebilecek şekilde konumlandırsın*/
+.menu4 ul li{
+    position: relative;
+}
+.menu4 ul li a{
+        display: block;
+        background-color: crimson;
+        width: 150px;
+        text-decoration: none;
+        padding: 9px 5px;
+        border: 1px solid #880000;
+        font: bold 12px tahoma;
+        color: rgb(128, 240, 156);
+}
+.menu4 ul li a:hover{
+    background-color: lightskyblue;
+    color: lightslategrey;
+}
+/*position absolute konumlandırmada kendinden önceki
+elamanın yerini dikkata almaz. bulunduğu yerin üst tarafı ve 
+sol tarafını dikkate alır*/
+.menu4 ul li ul{
+    display: none;
+    position: absolute; left: 162px; top: 0;
+}
+.menu4 ul li:hover ul{
+    display: block;
+}
+.menu5{
+    width: 700px; height: 150px;
+    margin: 50px 0 0 0;
+}
+.menu5 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu5 ul li{
+    float: left;
+    position: relative;
+}
+.menu5 ul li a{
+    text-decoration: none;
+    display: block;
+    width: 110px; height: 21px;
+    background-color: #4f4f4f;
+    text-align: center;
+    color: salmon;
+    font: bold 12px tahoma;
+    padding: 7px 0 0 0;
+    border: 1px solid;
+}
+.menu5 ul li a:hover{
+    background-color: silver;
+    color: sienna;
+}
+.menu5 ul li ul{
+    display: none;
+    position: absolute; left: 0; top: 30px;
+}
+/*menu 5in içindeki ulnin içindeki linin üzerine gelindiğinde
+iç içe olan diğer liste açılsın*/
+.menu5 ul li:hover ul{
+    display: block;
+}
+.menu6{
+    width: 750px; height: 30px;
+    margin: 50px 0 0 0;
+}
+.menu6 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #aaaaaa;
+}
+.menu6 ul li{
+    float: left;
+}
+.menu6 ul li a{
+    display: block;
+    width: 110px; height: 16px;
+    text-decoration: none;
+    color: #000000;
+    font: bold 12px tahoma;
+    background: url(images/sekmelimenu.png);
+    padding: 7px 30px;
+}
+.menu6 ul li a:hover{
+    color: #880000;
+}
+.menu7{
+    width: 688px; height: 60px;
+    margin: 30px 0 0 0;
+}
+.menu7 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu7 ul li{
+    float: left;
+}
+.menu7 ul li a{
+    display: block;
+    width: 98px; height: 60px;
+    background: url(images/anamenu.jpg);
+    text-indent: -2000px;
+}
+.menu7 ul li#anasayfa a{
+    background-position: 0 0;
+}
+.menu7 ul li#hakkimizda a{
+    background-position: -80px 0;
+}
+.menu7 ul li#urunler a{
+    background-position: -167px 0;
+}
+.menu7 ul li#menu a{
+    background-position: -258px 0;
+}
+.menu7 ul li#sube a{
+    background-position: -337px 0;
+}
+.menu7 ul li#ik a{
+    background-position: -440px 0;
+}
+.menu7 ul li#ulas a{
+    background-position: -541px 0;
+}
+/*üstüne gelindiğindiğinde*/
+.menu7 ul li#anasayfa a:hover{
+    background-position: 0 -66px;
+}
+.menu7 ul li#hakkimizda a:hover{
+    background-position: -80px -66px;
+}
+.menu7 ul li#urunler a:hover{
+    background-position: -167px -66px;
+}
+.menu7 ul li#menu a:hover{
+    background-position: -258px -66px;
+}
+.menu7 ul li#sube a:hover{
+    background-position: -337px -66px;
+}
+.menu7 ul li#ik a:hover{
+    background-position: -440px -66px;
+}
+.menu7 ul li#ulas a:hover{
+    background-position: -541px -66px;
+}
+

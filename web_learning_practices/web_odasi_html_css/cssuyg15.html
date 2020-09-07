@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <title>Apartman Uygulaması</title>
+        <style type="text/css">
+        .apartman{
+            width: 350px; height: auto;
+            margin: 70px auto;
+        }
+        .baca{
+            width: 25px; height: 50px;
+            background-color: #996600;
+            margin: 0 0 0 250px;
+        }
+        .cati{
+            width: 250px; height: 250px;
+            background-color: #993300;
+            transform: rotate(45deg);
+            margin: -50px 0 0 50px;
+            z-index: 1;
+            position: relative;
+        }
+        /*z-indexx çatı ve gövdenin üst üste 
+        gelebilmesini sağlayan özellik 
+        birbirinin üstüne gelen divler varsa z indexi 
+        hangisinin fazlaysa o üstte görünür. zindexe sahip olabilmek 
+        için divlerin göreceli hareket etmesi gerekiyor o yüzden
+        possition relative olmadan z index çalışmaz*/
+        .govde{
+            width: 335px; height: 470;
+            background-color: #00ccff;
+            margin: -125px 0 0 0;
+            z-index: 2;
+            position: relative;
+            padding: 30px 0 0 20px;
+        }
+        .p1{
+            width: 58px; height: 58px;
+            background-color: #ffff99;
+            border: 1px solid #000000;
+            float: left;
+            margin: 0 0 65px 0;
+        }
+        .p2{
+            width: 58px; height: 58px;
+            background-color: #ffff99;
+            border: 1px solid #000000;
+            float: left;
+            margin: 0 0 65px 65px;
+        }
+        .p3{
+            width: 58px; height: 58px;
+            background-color: #ffff99;
+            border: 1px solid #000000;
+            float: left;
+            margin:  0 0 65px 65px;
+        }
+        /*perdenin sadece içerde kalan borderini çizme işl
+        border right kullanılır.
+        border bottom alt tarafı çizgisidir.*/
+        .solperde{
+            width: 23px; height: 56px;
+            background-color: #ffffff;
+            border-radius: 0 0 20px 0;
+            border-right: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+            float: left;
+        }
+        .sagperde{
+            width: 23px; height: 56px;
+            background-color: #ffffff;
+            border-radius: 0 0 0 20px;
+            border-left: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+            float: left;
+            margin: 0 0 0 10px;
+        }
+        .kapitabela{
+            width: 90px; height: 152px;
+            float: left;
+            margin: -58px 0 0 50px;
+            
+        }
+        .tabela{
+            width: 84px; height: 25px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            font: bold 11px tahoma;
+            float: left;
+            text-align: center;
+            padding: 4px 0 0 0;
+        }
+        .kapi{
+            width: 86px; height: 118px;
+            background: #333300;
+            border-left: 2px solid #000000;
+            border-right: 2px solid #000000;
+            border-top: 2px solid #000000;
+            margin: 5px 0 0 0;
+            float: left;
+        }
+        .kapikolu{
+            width: 15px; height: 3px;
+            background-color: #000000;
+            margin: 50px 0 0 15px;
+        }
+        .p4{
+            width: 58px; height: 58px;
+            background-color: #ffff99;
+            border: 1px solid #000000;
+            float: left;
+            }
+        .p5{
+            width: 58px; height: 58px;
+            background-color: #ffff99;
+            border: 1px solid #000000;
+            float: left;
+            margin:  0 0 0px 50px;
+
+        }       
+        </style>
+    </head>
+    <body>
+        <div class="apartman">
+            <div class="baca"></div>
+            <div class="cati"></div>
+            <div class="govde">
+                <div class="p1">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p2">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p3">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p1">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p2">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p3">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p1">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p2">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p3">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="p4">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+                <div class="kapitabela">
+                    <div class="tabela">Kardeşler Apt.</div>
+                    <div class="kapi">
+                        <div class="kapikolu"></div>
+                    </div>
+                </div>
+                <div class="p5">
+                    <div class="solperde"></div>
+                    <div class="sagperde"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>kullanıcı giriş tablosu</title>
+    </head>
+    <body>
+        <table>
+            <form action="index.html">
+                <tr>
+                    <td>
+                        <label for="firstname">Adınız:</label>
+                        <input type="text" name="firstname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lastname">Soyadınız:</label>
+                        <input type="text" name="lastname">
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cinsiyet">cinsiyet</label>
+                        <!-- name="" verildiğinde radiobutonun bir kere seçilmesini sağlıyoruz.-->
+                        <input type="radio" value="Kadın" name="cinsiyet">
+                        <input type="radio" value="Erkek" name="cinsiyet">
+                        <input type="radio" value="Belirtmek istemiyorum" name="cinsiyet">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Gönder">
+                    </td>
+                </tr>
+
+            </form>
+        </table>
+    </body>
+</html>

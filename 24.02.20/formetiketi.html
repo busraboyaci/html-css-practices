@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>form etiketleri</title>
+    </head>
+    <body>
+        <h3>form etiketleri</h3>
+        <font><i>form etiketleri</i>kullanıcı girişleri oluşturmak, site ziyaretçilerinden veri toplamak için kullanılabilir.</font><br>
+        <font><i>label etiketi</i> kullanıcı tarafından görünen yazıları oluşturur</font><br>
+        <h3>tablo kullanmadan form oluşturmak:</h3>
+        <form>
+            <label for="username">kullanıcı adı:</label>
+            <input type="text" name="username">
+            <label for="pasword">Şifre:</label>
+            <input type="pasword" name="pasword">
+        </form><br>
+        <h3>tablonun içine form oluşturmak:</h3>
+        <table>
+            <form>
+            <tr>
+                <td>
+                    
+                    <label for="username">kullanıcı adı:</label>
+                
+            </td>
+            <td>
+                <input type="text" name="username">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                        <label for="password">Şifre</label>
+                    
+                </td>
+                <td>
+                    
+                        <input type="password" name="pasword">
+                    
+                </td>
+                <tr>
+                    <td>
+                        <input type="submit" value="Giriş yap">
+                    </td>
+                </tr>
+            </tr>
+        </form>
+        </table>
+    </body>
+</html>

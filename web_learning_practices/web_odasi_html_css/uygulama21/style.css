@@ -1,0 +1,88 @@
+.sablon{
+    width: 740px; height: auto;
+    margin: 30px auto;
+}
+.logo{
+    width: 100px; height: 100px;
+    float: left;
+    background-image: url(images/logo.jpg); 
+    background-repeat: no-repeat;
+}
+.banner{
+    width: 630px; height: 60px;
+    float: left;
+    margin: 0 0 0 10px;
+    background-color: rgb(221, 191, 152);
+    border-radius: 10px;
+    color: #ffffff;
+    font: bold 15px tahoma;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.menu{
+    width: 580px; height: 47px;
+    float: left;
+    margin: 10px 0 0 0;
+    background-color: bisque;
+}
+.sosyal{
+    width: 150px; height: 47px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.orta1{
+    width: 740px; height: 350px;
+    clear: both;
+    margin: 10px 0 10px 0;
+    background-color: burlywood;
+}
+.orta2{
+    width: 240px; height: 240px;
+    float: left;
+    background-color: #d1b1b1;
+}
+.orta3{
+    width: 240px; height: 240px;
+    float: left;
+    margin: 0 0 0 10px;
+    background-color: rgb(174, 137, 185);
+}
+.orta4{
+    width: 240px; height: 240px;
+    float: left;
+    margin: 0 0 0 10px;
+    background-color: rgb(209, 156, 216);
+}
+.alt{
+    width: 740px; height: 90px;
+    float: left;
+    margin: 10px 0 0 0;
+    background-color: rgb(112, 104, 170);
+    border-radius: 10px;
+}
+/* Aşağıdaki tanım; menu isminde bir css varsa
+bu menunun iç kısmında ul etiketi varsa menunun içindeki ul etkilensin*/
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+/*kutuya dönüştürüyorum -display block'la*/
+.menu ul li a{
+    display: block;
+    width: 145px; height: 32px;
+    text-decoration: none;
+    text-align: center;
+    font: 13px tahoma;
+    color: #ffffff;
+    padding: 15px 0 0 0;
+}
+/*üzerine gelme durumu*/
+.menu ul li a:hover{
+    background-color: blueviolet;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title> Gölgelendirme(box-shadow)</title>
+    <style type="text/css">
+    body{
+        background-color: aqua;
+        }
+        /*sınıf seçiciler: 
+        sınıf adı belirleyip o sınıfın yapacağı işkeri tanımlarız*/
+    .kutu{
+        width: 300px; height:300px;
+        background: #f45; 
+        margin: 40px auto 0px auto;
+        box-shadow: 10px 5px 4px #000000, -10px -5px 4px #000000 ;
+        border-radius: 15px 20px;
+        transform:rotate(30deg)
+    }
+    .arkaplan{
+        background-color: blueviolet;
+    }
+    h1{
+        font: bold 18px tahoma; color: crimson;
+    }
+    .yazi{
+        font: bold 20px verdana; color: darkgreen;
+    }
+    </style>
+    
+    
+    </head>
+    <body class="arkaplan">
+        <div class="kutu"></div>
+        
+        <br> <br> <br> <br>
+        <h1>Başlık 1</h1>
+        <h1>Başlık 2</h1>
+        <h1 class="yazi">Başlık 3</h1>
+    
+box shadowun ilk hanesi sağ taraftan verilecek gölgenin uzunluğunu ifade eder <br>
+             ikinci sayı alt taraftan verilecek gölgeyi <br>
+             üçüncü yoğunluğu ifade eder koyuluk derecesini <br>
+             sonuncusu gölgenin rengini ifade eder <br>
+             sol tarafa gölge vermek istersek sağ tarafa verdiğimiz miktarı "-" olarak verirsek o artık sol taraftaki gölge anlamına gelir. <br>
+             her tarafta gölge olsun istersek renkten sonra bir virgül koyarak yeni değerleri giriyoruz. <br>
+             Kutunun kenarlarını yuvarlatma: border radius. <br>
+             verilen değerler saat yönünü ifade eder. her köşeyi aynı yuvarlatma istersem tek değer verebilirim. <br>
+             bir karenin kenarının uzunluğunun yarısı kadar ovallik verirsek tam daire elde edebiliriz. <br>
+             iki haneli kullanıldığında birinci hane sol üst ve sağ alt <br>
+             ikincisi sol alt ve sağ üstü ifade eder. <br>
+             transform:rotate  kutuyu döndürmeyi sağlar <br>
+             transform: iki boyutlu ve 3 boyutlu işlemler için de kullanılır. <br>
+
+            
+            </body>
+</html>

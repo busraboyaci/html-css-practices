@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>kullanıcı girişi ödev</title>
+        <!--<style></style>-->
+        <style type="text/css">
+
+           body{
+                background-color: darkseagreen;
+                font-size: 15px;
+				text-align:center;
+                font-family: display grid;;
+                
+           }
+           #anadiv{
+               width: 50%;
+               height: 60%;
+               background-color: pink;
+               padding: 20px;
+               position: relative;
+               margin: auto;
+               margin-top: 10%;
+           }
+           #photo{
+               width: 75px;
+               height: 75px;
+               padding-left: 0px;
+               font-size: 12px;
+               margin: auto;
+           }
+           table {
+               background-color: aqua;
+               position: relative;
+               margin: auto;
+               top: 8%;
+           } 
+
+            
+        </style>
+    </head>
+    <body>
+
+        <div id="anadiv">
+            <table>
+                <tr>
+                    <td><img src="kullanıcı.png" width="50" height="50"></td>
+                    <td bgcolor="blue">kullanıcı adı:</td>
+                    <td><input type="text" name="username"></td>
+                    <td></td>
+                    <td>
+                    
+                        <input type="button" value="fotoğraf ekleyin">
+                       </td>
+                </tr>
+                <tr>
+                    <td><img src="zarf.png" width="50" height="50"></td>
+                    <td>E-posta adresi:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><img src="anahtar.png" width="50" height="50"></td>
+                    <td bgcolor="red"> Şifre:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr><!--drob down list aşağıya açılır pencere-->
+                    <td><img src="sex.jpg" width="50" height="50"></td>
+                    <td>cinsiyet Seçiniz:</td>
+                        <td><select id="cinsiyet" name="cinsiyet">
+                        <option value="kadın">kadın</option>
+                        <option value="erkek">Erkek</option>
+                        <option value="belirtmedi">Belirtmek İstemiyorum</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>medeni durumu:</td>
+                    <td><input type="radio">Evli</td>
+                    <td><input type="radio">Bekar</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Başvuru Sebebiniz: </td>
+                    <td><input type="checkbox">ulaşımı kolay</td>
+                    <td><input type="checkbox">ucuz</td>
+                    <td><input type="checkbox">lezzetli</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Gönder"></td>
+                </tr>
+            </table>
+                
+        </div>
+    </body>
+</html>
